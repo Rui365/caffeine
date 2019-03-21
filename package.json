@@ -4,7 +4,7 @@
   "description": "Data Visualization Project",
   "main": "index.js",
   "scripts": {
-    "start": "parcel ./src/**/*.html",
+    "start": "parcel ./src/**/*.html --out-dir docs/",
     "build": "parcel build ./src/**/*.html --out-dir docs/ --public-url /caffeine/"
   },
   "repository": {
