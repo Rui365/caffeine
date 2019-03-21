@@ -1,12 +1,19 @@
 // https://sass-lang.com/
+$top-offset: 3rem;
+$bp: 35rem;
+$myset: 10rem;
+
 body{
   background-color: lightblue;
+  margin: $top-offset auto;
+  max-width: 60rem;
 }
 
 h1{
   color: white;
   text-align: center;
   font-family: Tahoma;
+  margin-bottom: 3rem;
 }
 h2{
   color: white;
@@ -22,4 +29,55 @@ p{
   color: rgb(1, 16, 102);
   font-family: verdana;
   font-size: 20px;
+}
+
+
+section {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5rem;
+  
+  @media screen and (min-width: $bp) {
+    flex-direction: row;
+  }
+  
+  > * {
+    flex: 1;
+  }
+}
+
+article {
+  padding: 0 1rem;
+  
+  p {
+    font-family: Georgia;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    
+    @media screen and (min-width: $bp) {
+      margin: 0;
+    }
+    
+    &:not(:last-of-type) {
+      @media screen and (min-width: $bp) {
+        min-height: 90vh; 
+      } 
+    }
+  }
+}
+
+figure {
+  align-items: center;
+  align-self: flex-start;
+  //background-color: #DAF7A6;
+  display: flex;
+  height: 30rem;
+  margin: 0;
+  width: 100%;
+  justify-content: center;
+  top: $myset;
+  
+  @media screen and (min-width: $bp) {
+    position: sticky;
+  }
 }
