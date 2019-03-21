@@ -1,0 +1,26 @@
+{
+  "name": "caffeine",
+  "version": "0.0.0",
+  "description": "Data Visualization Project",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel ./src/**/*.html",
+    "build": "parcel build ./src/**/*.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rui365/caffeine.git"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/Rui365/caffeine/issues"
+  },
+  "homepage": "https://github.com/Rui365/caffeine#readme",
+  "dependencies": {
+    "sass": "^1.17.3"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.3"
+  }
+}
