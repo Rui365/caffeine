@@ -18,9 +18,10 @@
   },
   "homepage": "https://github.com/Rui365/caffeine#readme",
   "dependencies": {
-    "sass": "^1.17.3"
+    "d3": "^5.9.2"
   },
   "devDependencies": {
-    "parcel-bundler": "^1.12.3"
+    "parcel-bundler": "^1.12.3",
+    "sass": "^1.17.3"
   }
 }
