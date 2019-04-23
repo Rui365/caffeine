@@ -13,10 +13,19 @@ h1{
     color: rgb(65, 61, 61);
     text-align: center;
     font-family: Tahoma;
-    margin-bottom: 3rem;
+    line-height: 2.2;
+    font-size: 50px;
 }
 
+
 h2{
+    color: black;
+    text-align: center;
+    font-family: Tahoma;
+    line-height: 1.8;
+}
+
+h3{
     color: rgb(70, 66, 66);
     text-align: center;
     font-family:verdana;
@@ -26,6 +35,7 @@ p{
     color: black;
     text-align: center;
     font-family: verdana;
+    line-height: 1.8;
 }
 .bar img{
     text-align: center;
@@ -44,8 +54,14 @@ img {
     height: auto;
     vertical-align: middle;
 }
-
+.map img{
+    float: middle;
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
 span{
     text-align: justify;
     font-family: verdana;
+    line-height: 1.8;
 }

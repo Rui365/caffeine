@@ -8,10 +8,18 @@ h1 {
   color: #413d3d;
   text-align: center;
   font-family: Tahoma;
-  margin-bottom: 3rem;
+  line-height: 2.2;
+  font-size: 50px;
 }
 
 h2 {
+  color: black;
+  text-align: center;
+  font-family: Tahoma;
+  line-height: 1.8;
+}
+
+h3 {
   color: #464242;
   text-align: center;
   font-family: verdana;
@@ -21,6 +29,7 @@ p {
   color: black;
   text-align: center;
   font-family: verdana;
+  line-height: 1.8;
 }
 
 .bar img {
@@ -38,7 +47,14 @@ p {
 
 img {
   float: middle;
-  max-width: 130%;
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+.map img {
+  float: middle;
+  max-width: 100%;
   height: auto;
   vertical-align: middle;
 }
@@ -46,6 +62,7 @@ img {
 span {
   text-align: justify;
   font-family: verdana;
+  line-height: 1.8;
 }
 
 /*# sourceMappingURL=/caffeine/scripts.bcf3243b.css.map */
