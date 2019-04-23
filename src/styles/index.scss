@@ -3,81 +3,49 @@ $top-offset: 3rem;
 $bp: 35rem;
 $myset: 10rem;
 
-body{
-  background-color: lightblue;
-  margin: $top-offset auto;
-  max-width: 60rem;
+body {
+    background-color: rgb(227, 239, 243);
+    margin: $top-offset auto;
+    max-width: 60rem;
 }
 
 h1{
-  color: white;
-  text-align: center;
-  font-family: Tahoma;
-  margin-bottom: 3rem;
+    color: rgb(65, 61, 61);
+    text-align: center;
+    font-family: Tahoma;
+    margin-bottom: 3rem;
 }
+
 h2{
-  color: white;
-  text-align: center;
-  font-family:verdana;
+    color: rgb(70, 66, 66);
+    text-align: center;
+    font-family:verdana;
 }
-h3{
-  color: white;
-  text-align: center;
-  font-family: sans-serif;
-}
+
 p{
-  color: rgb(1, 16, 102);
-  font-family: verdana;
-  font-size: 20px;
+    color: black;
+    text-align: center;
+    font-family: verdana;
 }
-
-
-section {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 5rem;
-  
-  @media screen and (min-width: $bp) {
-    flex-direction: row;
-  }
-  
-  > * {
-    flex: 1;
-  }
+.bar img{
+    text-align: center;
+    max-width: 130%;
 }
-
-article {
-  padding: 0 1rem;
-  
-  p {
-    font-family: Georgia;
-    font-size: 1.1rem;
-    line-height: 1.8;
+.two-parts img{
+    float: left;
     
-    @media screen and (min-width: $bp) {
-      margin: 0;
-    }
-    
-    &:not(:last-of-type) {
-      @media screen and (min-width: $bp) {
-        min-height: 90vh; 
-      } 
-    }
-  }
+}
+.trend img{
+    max-width: 100%;
+}
+img { 
+    float: middle;
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
 }
 
-figure {
-  align-items: center;
-  align-self: flex-start;
-  //background-color: #DAF7A6;
-  display: flex;
-  height: 30rem;
-  margin: 0;
-  width: 100%;
-  justify-content: center;
-  top: $myset;
-  
-  @media screen and (min-width: $bp) {
-    position: sticky;
-  }
+span{
+    text-align: justify;
+    font-family: verdana;
 }

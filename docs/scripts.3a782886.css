@@ -1,0 +1,115 @@
+body {
+  background-color: lightblue;
+  margin: 3rem auto;
+  max-width: 60rem;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-family: Tahoma;
+  margin-bottom: 3rem;
+}
+
+h2 {
+  color: white;
+  text-align: center;
+  font-family: verdana;
+}
+
+h3 {
+  color: white;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+p {
+  color: #011066;
+  font-family: verdana;
+  font-size: 20px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+div.container {
+  text-align: center;
+  padding: 10px 20px;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+#borderimg2 {
+  border: 10px solid transparent;
+  padding: 15px;
+  border-image: url("/caffeine/border.35f8ece7.png") 30 round;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5rem;
+}
+@media screen and (min-width: 35rem) {
+  section {
+    flex-direction: row;
+  }
+}
+section > * {
+  flex: 1;
+}
+
+article {
+  padding: 0 1rem;
+}
+article p {
+  font-family: Georgia;
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+@media screen and (min-width: 35rem) {
+  article p {
+    margin: 0;
+  }
+}
+@media screen and (min-width: 35rem) {
+  article p:not(:last-of-type) {
+    min-height: 90vh;
+  }
+}
+
+figure {
+  align-items: center;
+  align-self: flex-start;
+  display: flex;
+  height: 30rem;
+  margin: 0;
+  width: 100%;
+  justify-content: center;
+  top: 10rem;
+}
+@media screen and (min-width: 35rem) {
+  figure {
+    position: sticky;
+  }
+}
+
+/*# sourceMappingURL=/caffeine/scripts.3a782886.css.map */
