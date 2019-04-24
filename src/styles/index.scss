@@ -4,9 +4,14 @@ $bp: 35rem;
 $myset: 10rem;
 
 body {
-    background-color: rgb(227, 239, 243);
+    background-color:white;
     margin: $top-offset auto;
     max-width: 60rem;
+}
+
+.ImageBorder{
+    border-width: 1px;
+    border-color: Black;
 }
 
 h1{
@@ -22,7 +27,8 @@ h2{
     color: black;
     text-align: center;
     font-family: Tahoma;
-    line-height: 1.8;
+    line-height: 2;
+    font-size: 35px;
 }
 
 h3{
@@ -32,27 +38,42 @@ h3{
 }
 
 p{
-    color: black;
-    text-align: center;
-    font-family: verdana;
+    font-family: Tahoma;
+    max-width: 49rem;
+    margin: 0 auto;
+    margin-bottom: 1.3em;
+    font-size: 1.2rem;
     line-height: 1.8;
+    font-weight: 400;
 }
 .bar img{
     text-align: center;
+    display: block;
     max-width: 130%;
+    
+}
+.scatter img{
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-width: 1px;
+    border-color: Black;
 }
 .two-parts img{
     float: left;
     
 }
 .trend img{
-    max-width: 100%;
+    border-width: 1px;
+    
 }
 img { 
     float: middle;
     max-width: 100%;
     height: auto;
     vertical-align: middle;
+    border:1px solid #021a40;
 }
 .map img{
     float: middle;
